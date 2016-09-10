@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://russiann.github.io/"/>
-  <updated>2016-09-10T14:58:37.000Z</updated>
+  <updated>2016-09-10T17:23:35.000Z</updated>
   <id>http://russiann.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://russiann.github.io/2016/09/10/drops-javascript-reduce/"/>
     <id>http://russiann.github.io/2016/09/10/drops-javascript-reduce/</id>
     <published>2016-09-10T13:24:46.000Z</published>
-    <updated>2016-09-10T14:58:37.000Z</updated>
+    <updated>2016-09-10T17:23:35.000Z</updated>
     
     <content type="html"><![CDATA[<!--- Invisible Char: > < --->
 <p>Com certeza você sabe fazer um <strong>loop</strong> em uma collection.<br>Mas você sabe o que significa <strong>reduzir</strong> uma collection??</p>
@@ -51,7 +51,7 @@
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">const</span> people = [</div><div class="line">  &#123; name: <span class="string">'João'</span>, age: <span class="number">32</span>&#125;,</div><div class="line">  &#123; name: <span class="string">'Maria'</span>, age: <span class="number">22</span>&#125;,</div><div class="line">  &#123; name: <span class="string">'José'</span>, age: <span class="number">13</span>&#125;,</div><div class="line">  &#123; name: <span class="string">'Francisco'</span>, age: <span class="number">56</span>&#125;,</div><div class="line">  &#123; name: <span class="string">'Mariana'</span>, age: <span class="number">49</span>&#125;,</div><div class="line">  &#123; name: <span class="string">'Marcos'</span>, age: <span class="number">26</span>&#125;,</div><div class="line">];</div><div class="line"> </div><div class="line"><span class="comment">// Retorna a pessoa mais velha da lista</span></div><div class="line"><span class="keyword">let</span> oldest = people.reduce(<span class="function"><span class="keyword">function</span> (<span class="params">prev, curr</span>) </span>&#123;</div><div class="line">  <span class="keyword">if</span> (curr.age &gt; prev.age) &#123;</div><div class="line">    <span class="keyword">return</span> curr;</div><div class="line">  &#125; <span class="keyword">else</span> &#123;</div><div class="line">    <span class="keyword">return</span> prev;</div><div class="line">  &#125;</div><div class="line">&#125;)</div><div class="line"></div><div class="line"><span class="comment">// oldest = &#123;name: "Francisco", age: 56&#125;</span></div><div class="line"> </div><div class="line"><span class="comment">// Com Arrow function</span></div><div class="line"><span class="keyword">const</span> oldest = people.reduce((prev, curr) =&gt; (curr.age &gt; prev.age) ? curr : prev )</div></pre></td></tr></table></figure>
 <p>Você também pode ler a <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce" target="_blank" rel="external">Documentação do Reduce no MDN</a> para ir mais afundo</p>
 <p>Parabéns! Agora você sabe o que é e como usar o Reduce! 🤘🏻</p>
-<p><img src="http://i.giphy.com/7rj2ZgttvgomY.gif"></p>
+<p><img src="https://i.giphy.com/7rj2ZgttvgomY.gif"></p>
 ]]></content>
     
     <summary type="html">
@@ -72,16 +72,17 @@
     <link href="http://russiann.github.io/2016/09/09/hello-world/"/>
     <id>http://russiann.github.io/2016/09/09/hello-world/</id>
     <published>2016-09-09T12:15:00.000Z</published>
-    <updated>2016-09-10T15:11:15.000Z</updated>
+    <updated>2016-09-10T17:23:42.000Z</updated>
     
     <content type="html"><![CDATA[<p>Resolvi fazer um devblog! 😃</p>
-<embed src="http://youtube.com/v/H4UtBYUMVJk&version=2&autoplay=1&theme=dark" type="application/x-shockwave-flash" height="25" width="400">
+<p><img src="https://i.giphy.com/3o6Ztm0Lv2eAMmNiZq.gif"></p>
 ]]></content>
     
     <summary type="html">
     
       &lt;p&gt;Resolvi fazer um devblog! 😃&lt;/p&gt;
-&lt;embed src=&quot;http://youtube.com/v/H4UtBYUMVJk&amp;version=2&amp;autoplay=1&amp;theme=dark&quot; type=&quot;application/x-shockw
+&lt;p&gt;&lt;img src=&quot;https://i.giphy.com/3o6Ztm0Lv2eAMmNiZq.gif&quot;&gt;&lt;/p&gt;
+
     
     </summary>
     
